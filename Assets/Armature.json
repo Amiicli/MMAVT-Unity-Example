@@ -1,0 +1,802 @@
+{
+  "metaData": "Name: 'Armature' 2023-Nov-10 19:48.11",
+  "hfem": {
+    "objects": [
+      {
+        "name": "HEAD",
+        "data": []
+      },
+      {
+        "name": "FACE",
+        "data": []
+      },
+      {
+        "name": "EYE",
+        "data": [
+          {
+            "name": "b_eye_angry",
+            "head": 0,
+            "face": 0,
+            "eye": 0,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 0
+          }
+        ]
+      },
+      {
+        "name": "EYELEFT",
+        "data": [
+          {
+            "name": "l_eye_blank",
+            "head": 0,
+            "face": 0,
+            "eye": 0,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 0
+          },
+          {
+            "name": "l_eye_blink_half",
+            "head": 0,
+            "face": 0,
+            "eye": 0,
+            "eyeLeft": 1,
+            "eyeRight": 0,
+            "mouth": 0
+          },
+          {
+            "name": "l_eye_blink_complete",
+            "head": 0,
+            "face": 0,
+            "eye": 0,
+            "eyeLeft": 2,
+            "eyeRight": 0,
+            "mouth": 0
+          },
+          {
+            "name": "l_eye_angry",
+            "head": 0,
+            "face": 0,
+            "eye": 0,
+            "eyeLeft": 3,
+            "eyeRight": 0,
+            "mouth": 0
+          },
+          {
+            "name": "l_eye_shock",
+            "head": 0,
+            "face": 0,
+            "eye": 0,
+            "eyeLeft": 4,
+            "eyeRight": 0,
+            "mouth": 0
+          }
+        ]
+      },
+      {
+        "name": "EYERIGHT",
+        "data": [
+          {
+            "name": "r_eye_blank",
+            "head": 0,
+            "face": 0,
+            "eye": 0,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 0
+          },
+          {
+            "name": "r_eye_blink_half",
+            "head": 0,
+            "face": 0,
+            "eye": 0,
+            "eyeLeft": 0,
+            "eyeRight": 1,
+            "mouth": 0
+          },
+          {
+            "name": "r_eye_blink_complete",
+            "head": 0,
+            "face": 0,
+            "eye": 0,
+            "eyeLeft": 0,
+            "eyeRight": 2,
+            "mouth": 0
+          },
+          {
+            "name": "r_eye_angry",
+            "head": 0,
+            "face": 0,
+            "eye": 0,
+            "eyeLeft": 0,
+            "eyeRight": 3,
+            "mouth": 0
+          },
+          {
+            "name": "r_eye_shock",
+            "head": 0,
+            "face": 0,
+            "eye": 0,
+            "eyeLeft": 0,
+            "eyeRight": 4,
+            "mouth": 0
+          }
+        ]
+      },
+      {
+        "name": "MOUTH",
+        "data": [
+          {
+            "name": "mouth_blank",
+            "head": 0,
+            "face": 0,
+            "eye": 0,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 0
+          },
+          {
+            "name": "mouth_smile",
+            "head": 0,
+            "face": 0,
+            "eye": 0,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 1
+          },
+          {
+            "name": "mouth_smile_open",
+            "head": 0,
+            "face": 0,
+            "eye": 0,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 2
+          },
+          {
+            "name": "mouth_open",
+            "head": 0,
+            "face": 0,
+            "eye": 0,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 3
+          },
+          {
+            "name": "mouth_frown",
+            "head": 0,
+            "face": 0,
+            "eye": 0,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 4
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "anger",
+        "keyframes": [
+          {
+            "time": 0.0,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 0
+          },
+          {
+            "time": 0.5,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 3,
+            "eyeRight": 3,
+            "mouth": 3
+          },
+          {
+            "time": 0.5833333333333334,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 3,
+            "eyeRight": 3,
+            "mouth": 3
+          },
+          {
+            "time": 0.75,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 3,
+            "eyeRight": 3,
+            "mouth": 3
+          },
+          {
+            "time": 0.20833333333333334,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 0
+          },
+          {
+            "time": 0.25,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 3,
+            "eyeRight": 3,
+            "mouth": 0
+          },
+          {
+            "time": 0.3333333333333333,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 3,
+            "eyeRight": 3,
+            "mouth": 0
+          },
+          {
+            "time": 0.375,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 3,
+            "eyeRight": 3,
+            "mouth": 4
+          },
+          {
+            "time": 0.4583333333333333,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 3,
+            "eyeRight": 3,
+            "mouth": 3
+          },
+          {
+            "time": 0.4166666666666667,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 3,
+            "eyeRight": 3,
+            "mouth": 4
+          }
+        ]
+      },
+      {
+        "name": "idle",
+        "keyframes": [
+          {
+            "time": 0.0,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 0
+          },
+          {
+            "time": 0.25,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 0
+          },
+          {
+            "time": 0.2916666666666667,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 1,
+            "eyeRight": 1,
+            "mouth": 0
+          },
+          {
+            "time": 0.3333333333333333,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 2,
+            "eyeRight": 2,
+            "mouth": 0
+          },
+          {
+            "time": 0.4166666666666667,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 0
+          }
+        ]
+      },
+      {
+        "name": "Joy",
+        "keyframes": [
+          {
+            "time": 0.0,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 0
+          },
+          {
+            "time": 0.125,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 1,
+            "eyeRight": 1,
+            "mouth": 0
+          },
+          {
+            "time": 0.20833333333333334,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 1,
+            "eyeRight": 1,
+            "mouth": 0
+          },
+          {
+            "time": 0.25,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 2,
+            "eyeRight": 2,
+            "mouth": 0
+          },
+          {
+            "time": 0.5833333333333334,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 2,
+            "eyeRight": 2,
+            "mouth": 1
+          },
+          {
+            "time": 0.6666666666666666,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 2,
+            "eyeRight": 2,
+            "mouth": 2
+          }
+        ]
+      },
+      {
+        "name": "peace sign",
+        "keyframes": [
+          {
+            "time": 0.0,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 0
+          },
+          {
+            "time": 0.4166666666666667,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 0
+          },
+          {
+            "time": 0.75,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 0
+          },
+          {
+            "time": 0.9166666666666666,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 0
+          },
+          {
+            "time": 0.5833333333333334,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 0
+          },
+          {
+            "time": 0.625,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 0
+          }
+        ]
+      },
+      {
+        "name": "peace sign idle",
+        "keyframes": [
+          {
+            "time": 0.0,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 0
+          },
+          {
+            "time": 1.25,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 0
+          },
+          {
+            "time": 0.5833333333333334,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 0
+          },
+          {
+            "time": 0.625,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 2,
+            "eyeRight": 2,
+            "mouth": 0
+          },
+          {
+            "time": 0.7083333333333334,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 0
+          }
+        ]
+      },
+      {
+        "name": "Rest",
+        "keyframes": [
+          {
+            "time": 0.0,
+            "head": 0,
+            "face": 0,
+            "eye": -1,
+            "eyeLeft": 0,
+            "eyeRight": 0,
+            "mouth": 0
+          }
+        ]
+      }
+    ]
+  },
+  "mbody": {
+    "objects": [
+      {
+        "name": "left hand",
+        "data": [
+          "l_hand_open",
+          "l_hand_halfopen",
+          "l_hand_fist",
+          "l_hand_thumbsup",
+          "l_hand_peace"
+        ]
+      },
+      {
+        "name": "right hand",
+        "data": [
+          "r_hand_open",
+          "r_hand_halfopen",
+          "r_hand_fist",
+          "r_hand_thumbsup",
+          "r_hand_peace"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "anger",
+        "keyframes": [
+          {
+            "time": 0.0,
+            "mmavtName": "left hand",
+            "mmavtIndex": 0,
+            "objectName": "l_hand_halfopen",
+            "objectIndex": 1
+          },
+          {
+            "time": 0.375,
+            "mmavtName": "left hand",
+            "mmavtIndex": 0,
+            "objectName": "l_hand_open",
+            "objectIndex": 0
+          },
+          {
+            "time": 0.4166666666666667,
+            "mmavtName": "left hand",
+            "mmavtIndex": 0,
+            "objectName": "l_hand_halfopen",
+            "objectIndex": 1
+          },
+          {
+            "time": 0.4583333333333333,
+            "mmavtName": "left hand",
+            "mmavtIndex": 0,
+            "objectName": "l_hand_fist",
+            "objectIndex": 2
+          },
+          {
+            "time": 0.5,
+            "mmavtName": "left hand",
+            "mmavtIndex": 0,
+            "objectName": "l_hand_fist",
+            "objectIndex": 2
+          },
+          {
+            "time": 0.5833333333333334,
+            "mmavtName": "left hand",
+            "mmavtIndex": 0,
+            "objectName": "l_hand_fist",
+            "objectIndex": 2
+          },
+          {
+            "time": 0.75,
+            "mmavtName": "left hand",
+            "mmavtIndex": 0,
+            "objectName": "l_hand_fist",
+            "objectIndex": 2
+          },
+          {
+            "time": 0.0,
+            "mmavtName": "right hand",
+            "mmavtIndex": 1,
+            "objectName": "r_hand_halfopen",
+            "objectIndex": 1
+          },
+          {
+            "time": 0.375,
+            "mmavtName": "right hand",
+            "mmavtIndex": 1,
+            "objectName": "r_hand_open",
+            "objectIndex": 0
+          },
+          {
+            "time": 0.4166666666666667,
+            "mmavtName": "right hand",
+            "mmavtIndex": 1,
+            "objectName": "r_hand_halfopen",
+            "objectIndex": 1
+          },
+          {
+            "time": 0.4583333333333333,
+            "mmavtName": "right hand",
+            "mmavtIndex": 1,
+            "objectName": "r_hand_fist",
+            "objectIndex": 2
+          },
+          {
+            "time": 0.5,
+            "mmavtName": "right hand",
+            "mmavtIndex": 1,
+            "objectName": "r_hand_fist",
+            "objectIndex": 2
+          },
+          {
+            "time": 0.5833333333333334,
+            "mmavtName": "right hand",
+            "mmavtIndex": 1,
+            "objectName": "r_hand_fist",
+            "objectIndex": 2
+          },
+          {
+            "time": 0.75,
+            "mmavtName": "right hand",
+            "mmavtIndex": 1,
+            "objectName": "r_hand_fist",
+            "objectIndex": 2
+          }
+        ]
+      },
+      {
+        "name": "idle",
+        "keyframes": [
+          {
+            "time": 0.0,
+            "mmavtName": "left hand",
+            "mmavtIndex": 0,
+            "objectName": "l_hand_halfopen",
+            "objectIndex": 1
+          },
+          {
+            "time": 0.0,
+            "mmavtName": "right hand",
+            "mmavtIndex": 1,
+            "objectName": "r_hand_halfopen",
+            "objectIndex": 1
+          }
+        ]
+      },
+      {
+        "name": "Joy",
+        "keyframes": [
+          {
+            "time": 0.0,
+            "mmavtName": "left hand",
+            "mmavtIndex": 0,
+            "objectName": "l_hand_halfopen",
+            "objectIndex": 1
+          },
+          {
+            "time": 0.0,
+            "mmavtName": "right hand",
+            "mmavtIndex": 1,
+            "objectName": "r_hand_halfopen",
+            "objectIndex": 1
+          }
+        ]
+      },
+      {
+        "name": "peace sign",
+        "keyframes": [
+          {
+            "time": 0.0,
+            "mmavtName": "left hand",
+            "mmavtIndex": 0,
+            "objectName": "l_hand_halfopen",
+            "objectIndex": 1
+          },
+          {
+            "time": 0.4166666666666667,
+            "mmavtName": "left hand",
+            "mmavtIndex": 0,
+            "objectName": "l_hand_halfopen",
+            "objectIndex": 1
+          },
+          {
+            "time": 0.75,
+            "mmavtName": "left hand",
+            "mmavtIndex": 0,
+            "objectName": "l_hand_halfopen",
+            "objectIndex": 1
+          },
+          {
+            "time": 0.9166666666666666,
+            "mmavtName": "left hand",
+            "mmavtIndex": 0,
+            "objectName": "l_hand_halfopen",
+            "objectIndex": 1
+          },
+          {
+            "time": 0.0,
+            "mmavtName": "right hand",
+            "mmavtIndex": 1,
+            "objectName": "r_hand_halfopen",
+            "objectIndex": 1
+          },
+          {
+            "time": 0.4166666666666667,
+            "mmavtName": "right hand",
+            "mmavtIndex": 1,
+            "objectName": "r_hand_thumbsup",
+            "objectIndex": 3
+          },
+          {
+            "time": 0.5833333333333334,
+            "mmavtName": "right hand",
+            "mmavtIndex": 1,
+            "objectName": "r_hand_fist",
+            "objectIndex": 2
+          },
+          {
+            "time": 0.625,
+            "mmavtName": "right hand",
+            "mmavtIndex": 1,
+            "objectName": "r_hand_peace",
+            "objectIndex": 4
+          },
+          {
+            "time": 0.75,
+            "mmavtName": "right hand",
+            "mmavtIndex": 1,
+            "objectName": "r_hand_peace",
+            "objectIndex": 4
+          },
+          {
+            "time": 0.9166666666666666,
+            "mmavtName": "right hand",
+            "mmavtIndex": 1,
+            "objectName": "r_hand_peace",
+            "objectIndex": 4
+          }
+        ]
+      },
+      {
+        "name": "peace sign idle",
+        "keyframes": [
+          {
+            "time": 0.0,
+            "mmavtName": "left hand",
+            "mmavtIndex": 0,
+            "objectName": "l_hand_halfopen",
+            "objectIndex": 1
+          },
+          {
+            "time": 1.25,
+            "mmavtName": "left hand",
+            "mmavtIndex": 0,
+            "objectName": "l_hand_halfopen",
+            "objectIndex": 1
+          },
+          {
+            "time": 0.0,
+            "mmavtName": "right hand",
+            "mmavtIndex": 1,
+            "objectName": "r_hand_peace",
+            "objectIndex": 4
+          },
+          {
+            "time": 1.25,
+            "mmavtName": "right hand",
+            "mmavtIndex": 1,
+            "objectName": "r_hand_peace",
+            "objectIndex": 4
+          }
+        ]
+      },
+      {
+        "name": "Rest",
+        "keyframes": [
+          {
+            "time": 0.0,
+            "mmavtName": "left hand",
+            "mmavtIndex": 0,
+            "objectName": "l_hand_open",
+            "objectIndex": 0
+          },
+          {
+            "time": 0.0,
+            "mmavtName": "right hand",
+            "mmavtIndex": 1,
+            "objectName": "r_hand_open",
+            "objectIndex": 0
+          }
+        ]
+      }
+    ]
+  }
+}
