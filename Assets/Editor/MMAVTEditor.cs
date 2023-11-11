@@ -65,18 +65,15 @@ namespace Milan.MMAVT
                 string symbol = " ";
                 symbol = toggle[counter] == true ?  "▼" : "►";
                 GUILayout.BeginHorizontal();
-                if (GUILayout.Button(symbol))
-                {
-                    toggle[counter] = !toggle[counter];
-                }
-                GUILayout.Label(item.name,GUILayout.Width(100));
-                GUILayout.Space(10);
+                toggle[counter] = EditorGUILayout.Foldout(toggle[counter], item.name);
+                // GUILayout.Label(item.name,GUILayout.Width(100));
                 int mmavtCount = 0;
                 foreach (AnimationEvent animEvent in item.events)
                 {
                     if(animEvent.functionName.Contains("MMAVT"))
                         mmavtCount++;
                 }
+                GUILayout.Space(100);
                 GUILayout.Label(mmavtCount.ToString(),GUILayout.Width(10));
                 GUILayout.FlexibleSpace();
                 GUILayout.EndHorizontal();
@@ -88,10 +85,12 @@ namespace Milan.MMAVT
                         string term = animEvent.functionName == "MMAVT_HFEMOperation" ? "HFEM" : "MBODY";
                         GUILayout.BeginVertical();
                         GUILayout.BeginHorizontal();
-                        GUILayout.Space(30);
+                        EditorGUI.indentLevel+= 3;
+
                         GUILayout.Label(term,GUILayout.Width(80));
                         GUILayout.Label(animEvent.time.ToString("00.00") + ": ",GUILayout.Width(40));
                         GUILayout.Label(animEvent.stringParameter);
+                        EditorGUI.indentLevel-= 3;
                         GUILayout.EndHorizontal();
                         GUILayout.EndVertical();
                     }
