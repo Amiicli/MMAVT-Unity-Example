@@ -1,3 +1,6 @@
-MMAVT is a system that allows low-poly animation methods like eye/mouth/hand meshswapping to be used easily in Blender and exported into engines like Unity.
+An example of MMAVT implementation in Unity
+
+Get MMAVT for Blender [here](https://github.com/Amiicli/MMAVT)
 
 Learn the basics of MMAVT [here](https://www.milancline.com/blog/archive/introducing-mmavt)
+
